@@ -478,3 +478,39 @@ margin-top: 30px;
 }
 
 /* Contact Me */
+
+/* Footer */
+#Footer{
+    width: 100%;
+    background-color: #ff9900;
+}
+#Footer h1{
+    color: white;
+    text-shadow: 0px 1px 1px black;
+    padding-top: 30px;
+}
+#Footer p{
+    color: white;
+    text-shadow: 0px 0px 1px;
+}
+.icons i{
+    text-shadow: 0px 1px 1px black;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.copyright{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 1px 1px black;
+}
+.credite{
+    color: white;
+    text-shadow: 0px 1px 1px black;
+}
+
+
+/* Footer */
+html{
+    scroll-behavior: smooth;
+}
