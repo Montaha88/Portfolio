@@ -89,8 +89,15 @@
     font-size: 50px;
     font-weight: bold;
 }
-.home .content h3 {
-    color: #ff9900;
+.home .content h3{
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+.home .content h3 span {
+    color:#ff9900;
     font-weight: bold;
     font-size: 40px;
 }
@@ -427,13 +434,8 @@ margin-top: 30px;
 
 
 }
-@media screen and(max-width:995px) {
-    #Contact input{
-        width: 350px;
-    } 
-    
-}
-@media screen and(max-width: 995px){
+
+@media screen and (max-width: 995px){
     #Contact input{
         width: 350px;
     } 
@@ -446,30 +448,30 @@ margin-top: 30px;
 }
 
 
-@media screen and(max-width: 376px){
+@media screen and (max-width: 476px){
     #Contact input{
-        width: 300px;
+        width: 250px;
     } 
     #Contact textarea{
-        width: 300px;
+        width: 250px;
     } 
     #Contact #btncontact{
-        width: 300px;
+        width: 250px;
     }
 }
 
-@media screen and(max-width:320px){
+@media screen and (max-width:320px){
     #Contact input{
-        width: 230px;
+        width: 180px;
     } 
     #Contact textarea{
-        width: 230px;
+        width: 180px;
     } 
     #Contact #btncontact{
-        width: 230px;
+        width: 180px;
     }
 }
-@media screen and(max-width:776px){
+@media screen and (max-width:776px){
     #Contact{
         height: 150vh;
     }
