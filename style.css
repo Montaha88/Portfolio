@@ -371,7 +371,108 @@ margin-top: 30px;
     }
     
 }
-
-
-
 /* portfolio */
+/* Contact Me */
+#Contact{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+#Contact h1{
+    color: white;
+    border-bottom: 2px solid #ff9900;
+    width: 210px;
+    padding-top: 100px;
+
+}
+#Contact p{
+    color: white;
+}
+#Contact input{
+    width: 420px;
+    margin-top: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ff9900;
+}
+#Contact ::placeholder{
+    color: white;
+}
+#Contact textarea{
+    background: transparent;
+    border: 2px solid #ff9900;
+    margin-top: 20px;
+    color: white;
+}
+#btncontact{
+    width: 420px;
+    height: 38px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background: transparent;
+    color: #ff9900;
+    border: 2px solid #ff9900;
+    margin-top: 30px;
+}
+#Contact i{
+    color: #ff9900;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 7px;
+}
+ #Contact.social-links i{
+    padding-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+
+
+}
+@media screen and(max-width:995px) {
+    #Contact input{
+        width: 350px;
+    } 
+    
+}
+@media screen and(max-width: 995px){
+    #Contact input{
+        width: 350px;
+    } 
+    #Contact textarea{
+        width: 350px;
+    } 
+    #Contact #btncontact{
+        width: 350px;
+    }
+}
+
+
+@media screen and(max-width: 376px){
+    #Contact input{
+        width: 300px;
+    } 
+    #Contact textarea{
+        width: 300px;
+    } 
+    #Contact #btncontact{
+        width: 300px;
+    }
+}
+
+@media screen and(max-width:320px){
+    #Contact input{
+        width: 230px;
+    } 
+    #Contact textarea{
+        width: 230px;
+    } 
+    #Contact #btncontact{
+        width: 230px;
+    }
+}
+@media screen and(max-width:776px){
+    #Contact{
+        height: 150vh;
+    }
+}
+
+/* Contact Me */
