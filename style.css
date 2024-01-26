@@ -20,7 +20,7 @@
 }
 #logo{
     margin-left: 140px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: #ff9900;
     letter-spacing: 2px;
@@ -189,18 +189,23 @@ animation: changetext 20s infinite linear;
     /* font-weight: bold; */
     border-bottom: 2px solid #ff9900;
     width: 150px;
+    margin-left: 100px;
+    padding-top: 70px;
 }
 #about h5{
     color: white;
+    margin-left: 100px;
     
 }
 #about p{
     color: white;
     font-size: 15px;
+    margin-left: 100px;
 }
 #about h2{
     color: white;
     font-size: 17px;
+    margin-left: 100px;
 }
 #about h2 span{
     font-size: 15px;
@@ -218,6 +223,7 @@ animation: changetext 20s infinite linear;
     color: black;
     transition: 0.5s ease;
     cursor: pointer;
+    margin-left: 100px;
 }
 #btncv2:hover{
     background-color: #ff9900;
